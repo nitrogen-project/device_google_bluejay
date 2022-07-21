@@ -23,4 +23,6 @@ include device/google/gs101/wifi/BoardConfig-wifi.mk
 -include vendor/google_devices/gs101/prebuilts/BoardConfigVendor.mk
 -include vendor/google_devices/bluejay/proprietary/BoardConfigVendor.mk
 
+include device/google/bluejay/bluejay/BoardConfigNos.mk
+
 $(call soong_config_set,google3a_config,target_device,bluejay)
