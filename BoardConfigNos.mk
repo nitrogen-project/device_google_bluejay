@@ -6,6 +6,8 @@
 
 BUILD_BROKEN_DUP_RULES := true
 
+DEVICE_PATH := device/google/bluejay
+
 # Kernel
 TARGET_KERNEL_DTBO_PREFIX := dts/
 TARGET_KERNEL_DTBO := google/devices/bluejay/dtbo.img
@@ -46,3 +48,7 @@ TARGET_KERNEL_EXT_MODULES := \
     uwb/kernel \
     wlan/bcmdhd4389 \
     ../devices/google/bluejay/display
+
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_bluejay
+TARGET_RECOVERY_DEVICE_MODULES := libinit_bluejay
