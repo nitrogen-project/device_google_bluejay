@@ -85,10 +85,6 @@ PRODUCT_COPY_FILES += \
 	device/google/bluejay/display_colordata_dev_cal0.pb:$(TARGET_COPY_OUT_VENDOR)/etc/display_colordata_dev_cal0.pb \
 	device/google/bluejay/display_golden_cal0.pb:$(TARGET_COPY_OUT_VENDOR)/etc/display_golden_cal0.pb
 
-# HBM
-PRODUCT_PACKAGES += \
-    HbmSVManagerOverlay
-
 # Media Performance Class 12
 PRODUCT_PROPERTY_OVERRIDES += ro.odm.build.media_performance_class=31
 
