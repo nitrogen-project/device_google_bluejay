@@ -37,3 +37,5 @@ $(call soong_config_set,google3a_config,target_device,bluejay)
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_bluejay
 TARGET_RECOVERY_DEVICE_MODULES := libinit_bluejay
+
+TARGET_PREBUILT_KERNEL := device/google/bluejay-kernel/Image.lz4
