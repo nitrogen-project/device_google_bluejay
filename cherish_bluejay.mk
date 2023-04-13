@@ -20,14 +20,14 @@ $(call inherit-product, device/google/bluejay/device-bluejay.mk)
 # Inherit some
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Nitrogen stuff.
-$(call inherit-product, vendor/nitrogen/products/common.mk)
+# Inherit some common Cherish stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Gapps
-$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/gms/gms_full.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := nitrogen_bluejay
+PRODUCT_NAME := cherish_bluejay
 PRODUCT_DEVICE := bluejay
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 6a
