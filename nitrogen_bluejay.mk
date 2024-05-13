@@ -42,6 +42,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_BUILD_FLAVOR=bluejay-user \
     TARGET_PRODUCT=bluejay \
-    PRIVATE_BUILD_DESC="bluejay-user 14 AP1A.240405.002 11480754 release-keys"
+    PRIVATE_BUILD_DESC="bluejay-user 14 AP1A.240505.004 11583682 release-keys"
 
-BUILD_FINGERPRINT := google/bluejay/bluejay:14/AP1A.240405.002/11480754:user/release-keys
+BUILD_FINGERPRINT := google/bluejay/bluejay:14/AP1A.240505.004/11583682:user/release-keys
