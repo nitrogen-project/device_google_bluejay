@@ -43,6 +43,8 @@ TARGET_BOOTLOADER_BOARD_NAME := bluejay
 USES_DEVICE_GOOGLE_BLUEJAY := true
 BOARD_KERNEL_CMDLINE += disable_dma32=on
 
+TARGET_SYSTEM_PROP += device/google/bluejay/system.prop
+
 include device/google/gs101/BoardConfig-common.mk
 include device/google/gs101/wifi/BoardConfig-wifi.mk
 -include vendor/google_devices/gs101/prebuilts/BoardConfigVendor.mk
