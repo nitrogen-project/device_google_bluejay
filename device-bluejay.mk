@@ -148,7 +148,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Increment the SVN for any official public releases
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.vendor.build.svn=61
+    ro.vendor.build.svn=63
 
 # DCK properties based on target
 PRODUCT_PROPERTY_OVERRIDES += \
